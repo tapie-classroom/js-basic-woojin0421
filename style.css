@@ -1,0 +1,134 @@
+body {
+    background-color: wheat;
+    font-family: 'Noto Sans KR', sans-serif;
+    margin: 0;
+    padding: 20px;
+    color: black;
+    line-height: 1.6;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: black;
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+    background-color: wheat;
+  }
+  
+  .logo button {
+    font-size: 40px;
+    font-weight: bold;
+    color: rgba(104, 36, 1, 0.943);
+    background-color: wheat;
+    border: none;
+    border-radius: 10%;
+    cursor: pointer;
+  }
+  
+  .logo button:hover {
+    background-color: gray;
+    opacity: 0.5;
+  }
+  
+  .logo strong {
+    font-size: 40px;
+  }
+  
+  .score-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .score-box {
+    background-color: rgb(255, 194, 96);
+    border-radius: 5px;
+    padding: 5px 15px;
+    text-align: center;
+    min-width: 50px;
+  }
+  
+  .score-box.best {
+    background-color: blanchedalmond;
+  }
+  
+  .label {
+    font-size: 10px;
+    color: #91867b;
+    font-weight: bold;
+  }
+  
+  .score {
+    font-size: 20px;
+    color: #776e65;
+    font-weight: bold;
+  }
+  
+  .new-game-btn {
+    background-color: #685b4d;
+    color: white;
+    font-weight: bold;
+    padding: 15px;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+  }
+  
+  main {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+  }
+  
+  .game-board {
+    display: flex;
+    flex-direction: column;
+    width: 492px;
+    height: 492px;
+    background-color: rgb(132, 116, 99);
+    border-radius: 12px;
+  }
+  
+  .row {
+    display: flex;
+    flex: 1;
+    margin-bottom: 10px;
+  }
+  
+  .row > div {
+    flex: 1;
+    background-color: #b8aea1;
+    border-radius: 10px;
+    margin-right: 10px;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 100px;
+  }
+  
+  .row > div:first-child {
+    margin-left: 10px;
+  }
+  
+  .row:first-child {
+    margin-top: 10px;
+  }
+  
+  .tile-2    { background-color: #eee4da !important; color: #776e65; }
+  .tile-4    { background-color: #ede0c8 !important; color: #776e65; }
+  .tile-8    { background-color: #f2b179 !important; color: white; }
+  .tile-16   { background-color: #f59563 !important; color: white; }
+  .tile-32   { background-color: #f67c5f !important; color: white; }
+  .tile-64   { background-color: #f65e3b !important; color: white; }
+  .tile-128  { background-color: #edcf72 !important; color: white; }
+  .tile-256  { background-color: #edcc61 !important; color: white; }
+  .tile-512  { background-color: #edc850 !important; color: white; }
+  .tile-1024 { background-color: #edc53f !important; color: white; }
+  .tile-2048 { background-color: #edc22e !important; color: white; }
+  
